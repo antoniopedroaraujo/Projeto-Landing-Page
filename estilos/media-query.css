@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* Pesuise Typical Device Breakpoints (pesquise e mantenha atualizado)
+/*  
+celular: 320px — 480px
+ipads e tablet: 481px — 768px
+laptops e pequenas telas: 769px — 1024px
+desktop: 1025px — 1200px
+grandes telas: 1201px and more
+*/
+/*
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login {
+        width: 90vw;
+        height: 280px;
+    }
+    section#login > div#imagem {
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+        
+}*/
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to top, #707070, #2c2c2c);
+    }
+    section#login {
+        width: 750px;
+        height: 350px;
+    }
+    section#login > div#imagem {
+        float: right;
+        height: 100%;
+        width: 50%;
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 50%;     
+    }
+    div#formulario {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+}
